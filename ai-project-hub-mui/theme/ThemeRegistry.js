@@ -4,29 +4,30 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import CssBaseline from '@mui/material/CssBaseline';
 
-// This is the complete, working theme object
 const theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#00BFFF', // Deep Sky Blue
+      main: '#00EFFF', // A sharp, bright Cyan (the hologram color)
     },
     secondary: {
-      main: '#9400D3', // Dark Violet
+      main: '#FFFFFF', // Clean white for contrast on secondary actions
     },
     background: {
-      default: '#0a1929', // A dark, rich navy
-      paper: '#001e3c', // A slightly lighter navy for cards
+      default: '#050A19', // A very dark, almost black navy for the base
+      paper: 'rgba(0, 239, 255, 0.08)', // Very subtle cyan-tinted glass
     },
     text: {
-      primary: '#e3f2fd',
-      secondary: '#b0bec5',
+      primary: '#EAEAEA',
+      secondary: '#A0B0C0',
+    },
+    success: { // Important for the "Online" status dot
+      main: '#00FF7F', // Spring Green
     },
   },
-  // By defining a typography object, CssBaseline will find what it needs
   typography: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    fontWeightBold: 700, // Explicitly defining what it was missing
+    fontFamily: '"Inter", "Roboto", "Helvetica", sans-serif',
+    fontWeightBold: 700,
   },
 });
 

@@ -8,7 +8,7 @@ export const projects = [
     description: 'Connects freelancers with AI agents to automate project tasks.',
     longDescription: 'A platform where freelancers can hire specialized AI agents to handle project proposals, contract generation, and client communication, streamlining their workflow and increasing efficiency.',
     // Image by Austin Distel from Unsplash: https://unsplash.com/photos/wD1LRb9oXiA
-    imageUrl: '/images/project-freelance.jpg',
+    imageUrl: '/images/aifreelance.jpeg',
     technologies: ['Next.js', 'Stripe API', 'OpenAI API', 'Supabase', 'Tailwind CSS'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -23,7 +23,7 @@ export const projects = [
     description: 'Generates compelling video sales letters from business inputs.',
     longDescription: 'An innovative tool that takes a business\'s product details and target audience as input, then uses generative AI to write a script, create voiceover, and assemble stock footage into a high-converting video sales letter.',
     // Image by Co-op Digital from Unsplash: https://unsplash.com/photos/1_CMo33V53A
-    imageUrl: '/images/project-video.jpg',
+    imageUrl: '/images/salesvideo.jpeg',
     technologies: ['React', 'Node.js', 'FFMPEG', 'ElevenLabs API', 'Pexels API'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -38,7 +38,7 @@ export const projects = [
     description: 'AI chatbots that handle routine customer inquiries 24/7.',
     longDescription: 'Implement intelligent AI chatbots on websites and messaging platforms. These bots are trained on company data to handle routine inquiries, track orders, and answer FAQs, freeing up human agents for complex issues.',
     // Image by Van Tay Media from Unsplash: https://unsplash.com/photos/TFFn3BY-5BC
-    imageUrl: '/images/project-support.jpg',
+    imageUrl: '/images/crm.jpeg',
     technologies: ['Dialogflow', 'Python', 'FastAPI', 'WebSocket', 'Vue.js'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -53,7 +53,7 @@ export const projects = [
     description: 'Autonomous agents for administrative tasks like scheduling.',
     longDescription: 'A suite of AI agents that integrate with your company\'s tools to perform administrative tasks. Includes agents for scheduling meetings, managing email inboxes, and handling initial customer service interactions.',
     // Image by Proxyclick Visitor Management System from Unsplash: https://unsplash.com/photos/JThjCqx3USA
-    imageUrl: '/images/project-virtual-employee.jpg',
+    imageUrl: '/images/virtualemployees.jpeg',
     technologies: ['LangChain', 'Python', 'Google Calendar API', 'Microsoft Graph API'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -68,7 +68,7 @@ export const projects = [
     description: 'Automatically summarizes meeting content and action items.',
     longDescription: 'An AI tool that connects to Zoom, Google Meet, or Teams. It transcribes the meeting in real-time, then generates a concise summary, identifies key decisions, and lists actionable items with assigned owners.',
     // Image by Chris Montgomery from Unsplash: https://unsplash.com/photos/smgTvepind4
-    imageUrl: '/images/project-meeting.jpg',
+    imageUrl: '/images/meetSummarizer.png',
     technologies: ['Whisper API', 'Next.js', 'OpenAI API', 'Zoom API'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -83,7 +83,7 @@ export const projects = [
     description: 'Automates follow-up emails and tasks based on CRM data.',
     longDescription: 'This agent monitors your CRM (like Salesforce or HubSpot) for updates. When a deal stage changes or a new lead is added, it automatically drafts and sends personalized follow-up emails, creating tasks for the sales team.',
     // Image by Headway from Unsplash: https://unsplash.com/photos/5_0G5K3y2eA
-    imageUrl: '/images/project-crm.jpg',
+    imageUrl: '/images/crm.png',
     technologies: ['SvelteKit', 'HubSpot API', 'Node.js', 'CRON Jobs'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -98,7 +98,7 @@ export const projects = [
     description: 'Predicts future financial trends from company data.',
     longDescription: 'An AI assistant that securely connects to financial data sources like QuickBooks or Stripe. It uses time-series analysis and machine learning to predict future revenue, cash flow, and expenses, helping businesses make informed decisions.',
     // Image by Adeolu Eletu from Unsplash: https://unsplash.com/photos/E7RLgUjjazc
-    imageUrl: '/images/project-finance.jpg',
+  imageUrl:'/images/FinancialForecast.jpeg', 
     technologies: ['Python', 'Pandas', 'Scikit-learn', 'Plotly Dash'],
     embedUrl: 'https://viswa-aditya-portfolio.vercel.app/',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -113,7 +113,7 @@ export const projects = [
     description: 'Sorts and manages emails, filtering out irrelevant messages.',
     longDescription: 'A personal AI agent that learns your email habits. It automatically archives newsletters, sorts promotional content into a digest, and prioritizes important emails from key contacts, helping you achieve "Inbox Zero".',
     // Image by Solen Feyissa from Unsplash: https://unsplash.com/photos/Kx8gT2l2BUA
-    imageUrl:'./public/images/FinancialForecast.png',  
+    imageUrl:'/images/inbox-zero.png',  
     technologies: ['Gmail API', 'Vector DB', 'OpenAI API', 'Firebase Functions'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',
@@ -128,7 +128,7 @@ export const projects = [
     description: 'Guides new clients through onboarding, automating tasks.',
     longDescription: 'An interactive bot that automates the client onboarding process. It collects necessary documents, schedules kickoff meetings, answers common questions, and ensures a smooth and personalized welcome for every new client.',
     // Image by Scott Graham from Unsplash: https://unsplash.com/photos/5fNmWej4tAA
-    imageUrl: '/images/project-onboarding.jpg',
+    imageUrl: '/images/onboardingbot.png',
     technologies: ['Next.js', 'Typeform API', 'Calendly API', 'Notion API'],
     embedUrl: 'https://your-deployed-app-url.com',
     githubUrl: 'https://github.com/your-username/your-repo',

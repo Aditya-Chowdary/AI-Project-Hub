@@ -11,7 +11,7 @@ export default function AmazingLandingPage() {
   return (
     <>
       <AuroraBackground />
-      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
+      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1, }}>
         <HeroSection />
         <AnimatedGrid>
           {projects.map((project) => (
