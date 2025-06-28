@@ -1,5 +1,4 @@
-// app/projects/[slug]/page.js
-'use client'; // This component needs to be a client component for state and events
+'use client'; 
 import { useState, useEffect } from 'react';
 import { projects } from '@/data/projects';
 import { notFound } from 'next/navigation';
