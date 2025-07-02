@@ -1,7 +1,6 @@
 // components/ScrollingBackground.js
 'use client';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef, useEffect } from 'react'; // We need useRef and useEffect here
 import Box from '@mui/material/Box';
 
 const Hexagon = (props) => (

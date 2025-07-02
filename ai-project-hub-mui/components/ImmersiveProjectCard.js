@@ -1,11 +1,9 @@
-
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-// Styled component for the pulsating "Live" dot
 const PulsatingDot = styled('div')(({ theme, ownerState }) => ({
   width: 12,
   height: 12,
@@ -22,11 +20,10 @@ const PulsatingDot = styled('div')(({ theme, ownerState }) => ({
 // Main Card Component
 export const ImmersiveProjectCard = ({ project }) => {
   return (
-    // The animation is now controlled by this motion.div itself
     <motion.div
       initial={{ opacity: 0, y: 50, scale: 0.95 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      viewport={{ once: true, amount: 0.2 }} // Triggers when 20% of the card is visible
+      viewport={{ once: true, amount: 0.2 }} 
       transition={{ duration: 0.6, ease: 'easeOut' }}
       style={{ height: '100%' }}
     >

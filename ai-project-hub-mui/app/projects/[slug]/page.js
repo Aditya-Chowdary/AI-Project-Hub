@@ -17,7 +17,6 @@ export default function ProjectViewerPage({ params }) {
   const [isLoading, setIsLoading] = useState(true);
   const project = projects.find((p) => p.slug === params.slug);
 
-  // This is a client component, so we use a check and useEffect to handle notFound
   useEffect(() => {
     if (!project) {
       notFound();
@@ -25,12 +24,12 @@ export default function ProjectViewerPage({ params }) {
   }, [project]);
 
   if (!project) {
-    return null; // Return null while checking
+    return null; 
   }
 
   return (
     <Container maxWidth="xl" sx={{ py: 4 }}>
-      <Button component={Link} href="/" startIcon={<ArrowBackIcon />} sx={{ mb: 3 }}>
+      <Button component={Link} href="/" startIcon={<ArrowBackIcon />} sx={{ mb: 3,text }}>
         Home
       </Button>
       <Typography variant="h3" component="h1" gutterBottom>
@@ -40,7 +39,7 @@ export default function ProjectViewerPage({ params }) {
         elevation={12}
         sx={{
           width: '100%',
-          height: 'calc(100vh - 200px)', // Make it take up most of the viewport height
+          height: 'calc(100vh - 200px)', 
           minHeight: '600px',
           borderRadius: 2,
           overflow: 'hidden',

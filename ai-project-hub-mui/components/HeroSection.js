@@ -1,10 +1,6 @@
-// components/HeroSection.js
-'use client';
 import { motion } from 'framer-motion';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 const container = {
   hidden: { opacity: 0 },
@@ -42,9 +38,6 @@ export const HeroSection = () => {
         A unified dashboard showcasing next-generation AI projects, running live and ready for interaction.
       </Typography>
       <motion.div variants={item}>
-        {/* <Button variant="contained" size="large" endIcon={<RocketLaunchIcon />}>
-          Explore Projects
-        </Button> */}
       </motion.div>
     </Box>
   );

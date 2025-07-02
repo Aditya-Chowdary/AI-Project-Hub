@@ -1,5 +1,4 @@
-// components/AnimatedGrid.js
-'use client';
+
 import { motion } from 'framer-motion';
 import Grid from '@mui/material/Grid';
 
@@ -8,7 +7,7 @@ const containerVariants = {
   animate: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15, // This makes each child animate one after the other
+      staggerChildren: 0.15, 
     },
   },
 };

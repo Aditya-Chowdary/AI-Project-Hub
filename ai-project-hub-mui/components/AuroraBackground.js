@@ -1,5 +1,3 @@
-// components/AuroraBackground.js
-'use client';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { useEffect } from 'react';
 import Box from '@mui/material/Box';
@@ -31,7 +29,7 @@ export const AuroraBackground = () => {
         width: '100vw',
         height: '100vh',
         overflow: 'hidden',
-        zIndex: -1, // Place it behind everything
+        zIndex: -1,
       }}
     >
       <motion.div
@@ -40,7 +38,6 @@ export const AuroraBackground = () => {
           width: '600px',
           height: '600px',
           borderRadius: '50%',
-          // Use the smoothed values for the position
           x: smoothX,
           y: smoothY,
           translateX: '-50%',

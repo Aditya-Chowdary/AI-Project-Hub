@@ -5,32 +5,27 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 
-// --- Animated Components ---
+// const SystemCheckGrid = styled(Box)({
+//   display: 'grid',
+//   gridTemplateColumns: 'repeat(3, 1fr)',
+//   gap: '16px',
+//   marginTop: '32px',
+// });
+// const SystemCheckItem = ({ icon, label, delay }) => (
+//   <motion.div
+//     initial={{ opacity: 0, y: 10 }}
+//     animate={{ opacity: 1, y: 0 }}
+//     transition={{ duration: 0.4, delay: delay }}
+//     style={{ textAlign: 'center' }}
+//   >
+//     {icon}
+//     <Typography variant="caption" display="block" sx={{ mt: 0.5 }}>
+//       {label}
+//     </Typography>
+//   </motion.div>
+// );
 
-// 1. A container for the system check icons
-const SystemCheckGrid = styled(Box)({
-  display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
-  gap: '16px',
-  marginTop: '32px',
-});
 
-
-const SystemCheckItem = ({ icon, label, delay }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 10 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.4, delay: delay }}
-    style={{ textAlign: 'center' }}
-  >
-    {icon}
-    <Typography variant="caption" display="block" sx={{ mt: 0.5 }}>
-      {label}
-    </Typography>
-  </motion.div>
-);
-
-// 3. The main Preloader component
 export const Preloader = () => {
   const text = "Welcome to the AI Project Hub!";
   const textVariants = {
